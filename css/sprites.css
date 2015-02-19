@@ -1,0 +1,17 @@
+.money-icon-hover, .money-icon{
+	background: url(sprites.png) no-repeat;
+	display:block;
+}
+
+
+.money-icon{
+	background-position: -30px -24px ;
+	width: 43px;
+	height: 43px;
+}
+
+.money-icon:hover{
+	background-position: -30px -127px ;
+	width: 43px;
+	height: 43px;
+}
