@@ -14,35 +14,49 @@
 /** RESET AND LAYOUT
 ===================================*/
 
+
+.icons{
+	margin-top:50px;
+	padding-left:55px;
+}
+
 h1{
 	text-align:center;
 }
+
+
+.drought{
+	display:block;
+	position:relative;
+	
+}
+
 .money{
+	display:inline;
 	position:absolute;
-	left:200px;
-	top:200px;
 	background-color:#12538b;
 	border-radius: 30px;
+	width:100%;
 	
 }
 .money:hover{
 	background-color:#be2029;
 	border-radius:30px;
-	position:absolute;
 
 }
-.money-2{
+
+.money-3{
+	display:inline;
 	position:absolute;
-	left:300px;
-	top:200px;
+	left:400px;
 	background-color:#12538b;
 	border-radius: 30px;
+	width:3%;
 	
 }
-.money-2:hover{
+.money-3:hover{
 	background-color:#be2029;
 	border-radius:30px;
-	position:absolute;
 }
 
 .bx-wrapper {
