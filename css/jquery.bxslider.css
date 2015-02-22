@@ -14,10 +14,37 @@
 /** RESET AND LAYOUT
 ===================================*/
 
+h1,h2,h3,h4,h5,h6{
+	font-family:"oswald";
+	text-align:center;
+	
+}
+
+h1{
+	margin-top:50px;
+	font-weight:700;
+	color:#be2029;
+}
+
+
+h4{
+	font-weight:500;
+	line-height:25px;
+	font-size:18px;
+}
+
+.impacts{
+	display:block;
+	postion:relative;
+	height:95px;
+}
+
+body{
+	background-color:#333;
+}
 
 .icons{
 	margin-top:50px;
-	padding-left:55px;
 }
 
 h1{
@@ -28,36 +55,26 @@ h1{
 .drought{
 	display:block;
 	position:relative;
+	text-align:center;
+	margin-bottom:20px;
 	
 }
 
 .money{
-	display:inline;
+	display:inline-block;
 	position:absolute;
+	left:28px;
 	background-color:#12538b;
-	border-radius: 30px;
-	width:100%;
+	border-radius: 1000px;
+	
 	
 }
 .money:hover{
 	background-color:#be2029;
-	border-radius:30px;
+	border-radius:1000px;
 
 }
 
-.money-3{
-	display:inline;
-	position:absolute;
-	left:400px;
-	background-color:#12538b;
-	border-radius: 30px;
-	width:3%;
-	
-}
-.money-3:hover{
-	background-color:#be2029;
-	border-radius:30px;
-}
 
 .bx-wrapper {
 	position: relative;
@@ -69,9 +86,10 @@ h1{
 .bx-wrapper img {
 	max-width: 100%;
 	display: block;
-	max-width: 30%;
+	max-width: 60%;
 	margin-left:auto;
 	margin-right:auto;
+	min-height:100%;
 }
 
 /** THEME
@@ -87,6 +105,7 @@ h1{
 	max-width:100%;
 	margin-left:auto;
 	margin-right:auto;
+
 
 	
 	/*fix other elements on the page moving (on Chrome)*/
