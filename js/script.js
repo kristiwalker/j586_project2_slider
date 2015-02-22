@@ -2,4 +2,14 @@
 
 $(document).ready(function(){
   $('.bxslider').bxSlider();
+  
+  //bar chart
+  
+  	
+        
+  //line graph
+    
+  
 });
+
+

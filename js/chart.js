@@ -2516,7 +2516,7 @@
 	var defaultConfig = {
 
 		///Boolean - Whether grid lines are shown across the chart
-		scaleShowGridLines : true,
+		scaleShowGridLines : false,
 
 		//String - Colour of the grid lines
 		scaleGridLineColor : "rgba(0,0,0,.05)",
@@ -2540,13 +2540,13 @@
 		pointDot : true,
 
 		//Number - Radius of each point dot in pixels
-		pointDotRadius : 4,
+		pointDotRadius : 5,
 
 		//Number - Pixel width of point dot stroke
 		pointDotStrokeWidth : 1,
 
 		//Number - amount extra to add to the radius to cater for hit detection outside the drawn point
-		pointHitDetectionRadius : 20,
+		pointHitDetectionRadius : 5,
 
 		//Boolean - Whether to show a stroke for datasets
 		datasetStroke : true,
