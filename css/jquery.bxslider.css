@@ -56,7 +56,7 @@ h6{
 }
 
 body{
-	background-color:#333;
+	//*background-color:#333;*//
 }
 
 .head-style{
@@ -144,6 +144,14 @@ body{
 	top:60px;
 }
 
+.doughnut-legend{
+	display:inline-block;
+	position:absolute;
+	right:100px;
+	top:100px;
+	list-style-type:square;
+}
+
 .co2{
 	min-height:300px;
 }
@@ -151,7 +159,8 @@ body{
 .co2-height{
 	display:block;
 	position:relative;
-	height:275px;
+	height:300px;
+	
 }
 
 .country-list{
