@@ -20,6 +20,8 @@
     <link href="css/jquery.bxslider.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="css/tooltipster.css" />
     <link href="css/quiz-style.css" rel="stylesheet" media="screen" type="text/css">
+    <link href="css/jqvmap.css" media="screen" rel="stylesheet" type="text/css" />
+
 
     
 
@@ -37,7 +39,7 @@
                     <div class="col-xs-12">
                         <div class="col-xs-1"></div>
                         <div class="col-xs-10">
-                            <h1>Temperatures Are Rising</h1>
+                            <h1>Temperatures are rising</h1>
                             <h3>Land and ocean surface temperature in 2010 was approximately 0.66 degrees Celcius warmer than the average.</h3>
                         </div>
                         <div class="col-xs-1"></div>
@@ -128,13 +130,13 @@
                       
                 </div>                
             </li>
-            
+<!--Slide 4:Line Graph-->
             <li>
                 <div class="row head-style">
                     <div class="col-xs-12">
                         <div class="col-xs-1"></div>
                         <div class="col-xs-10">
-                            <h1>What's Making Earth Hotter?</h1>
+                            <h1>Why is earth getting hotter?</h1>
                             <h3>Greenhouse gases, such as carbon dioxide, absorb energy and help retain heat on Earth. Since these gases function to keep Earth warmer than it would otherwise be, increased gas amounts result in rising Earth temperatures, directly contributing to climate change. 
 This is called the greenhouse effect. </h3>
                         </div>
@@ -150,13 +152,134 @@ This is called the greenhouse effect. </h3>
                 </div>
                 <div clas="row">
                     <div class="col-xs-2"></div>
-                    <div class="col-xs-8 bar-interactive" style="width:60%">
+                    <div class="col-xs-8 line-interactive" style="width:65%">
 			<canvas id="lineChart" height="450" width="600"></canvas>
                     </div>
                     <div class="col-xs-2"></div>
                 </div>
             </li>
             
+<!--Slide 4:Doughnut-->
+            <li>
+                <div class="row head-style">
+                    <div class="col-xs-12">
+                        <div class="col-xs-1"></div>
+                        <div class="col-xs-10">
+                            <h1>Who's the culprit?</h1>
+                            <h3>A whopping 97% of climate scientists say global warming is likely due to human activity.</h3>
+                        </div>
+                        <div class="col-xs-1"></div>
+                    </div>
+                </div>
+                <div class="row co2 bar-graph-title">
+                    <div class="col-xs-2 col-sm-1"></div>
+                    <div class="col-xs-8 col-sm-4 co2-height" id="canvas-holder" >
+                        <h5>Global Greenhouse Gas Emissions By Sector in 2010</h5>
+			<canvas id="chart-area" height="450" width="600" class="doughnut" style=" width:35%"></canvas>
+                    </div>
+                    <div class="col-xs-2 hidden-sm hidden-md hidden-lg hidden-xl"></div>
+                     <div class="hidden-xs col-sm-1 chart-divider"></div>
+                     
+                     <div class="hidden-xs col-sm-1"></div>
+                    <div class="col-xs-12 col-sm-5 co2-height" id="canvas-holder" >
+                        <div class="col-xs-12">
+                            <h5>Largest Emitters of Carbon Dioxide in 2012</h5>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="col-xs-12">
+                                <div id="vmap" class="vmap-position" style="width: 400px; height: 200px;"></div>
+                            </div>
+                            <div class="col-xs-12 country-list">
+                                <img src="assets/plus-icon.png"  class="money plus tooltip" title="1. China<br>
+                                2. U.S.<br>
+                                3. India<br>
+                                4. Russia<br>
+                                5. Brazil<br>
+                                6. Japan<br>
+                                7. Indonesia<br>
+                                8. Germany<br>
+                                9. Korea<br>
+                                10. Canada & Iran"
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hidden-xs col-sm-1"></div>
+                </div>
+
+            </li>
+ <!--Slide 5: Taking Action-->           
+            <li>
+                <div class="row head-style-blue">
+                    <div class="col-xs-1"></div>
+                    <div class="col-xs-10">
+                        <h1>Stopping Climate Change</h1>
+                        <h3>Below is a list of six minor lifestyle changes that you can make to prevent greenhouse gas emissions and overconsumption of energy. </h3>
+                    </div>
+                    <div class="col-xs-1"></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <!--><div class="hidden-xs col-md-1"></div><!-->
+                        <div class="col-xs-12 col-md-12 icons">
+                            <div class="col-xs-12 col-md-2 drought">
+                                <div class="col-xs-6 col-md-12 impacts">
+                                    <h4>Reduce, Reuse & Recycle</h4>
+                                </div>
+                                <div class="col-xs-6 col-md-12">
+                                    <img src="assets/action-icons/recycle-icon.png"  class="money tooltip" title="This is an easy way to reduce greenhouse gases, pollution, and energy waste. Newspapers, beverage containers andpaper are just a few examples of recyclable material.
+"/> 
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-2 drought">
+                                <div class="col-xs-6 col-md-12 impacts">
+                                    <h4>Conserve Water</h4>
+                                </div>
+                                <div class="col-xs-6 col-md-12">
+                                    <img src="assets/action-icons/sink-icon.png"  class="money tooltip" title="Turning off the water when you are not using it, fixing leaks and shortening the duration of showers are simpleways to conserve energy."/>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-2 drought">
+                                <div class="col-xs-6 col-md-12 impacts">
+                                    <h4>Travel Smart</h4>
+                                </div>
+                                <div class="col-xs-6 col-md-12">
+                                    <img src="assets/action-icons/car-icon.png"  class="money tooltip" title="Make a difference by using public transportation, carpooling, walking or biking to reduce greenhouse gases. When you do drive, accelerate slowly, break less, and reduce your time idling. Also consider switching to fuel-efficient vehicles that 
+                                    emit less greenhouse gases. "/> 
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-2 drought">
+                                <div class="col-xs-6 col-md-12 impacts">
+                                    <h4>Look for Energy Star</h4>
+                                </div>
+                                <div class="col-xs-6 col-md-12">
+                                    <img src="assets/action-icons/star-icon.png"  class="money tooltip" title="Appliances, lighting and heating products
+                                    are just a few examples of the many items that are Energy Star qualified. By choosing these energy-efficient alternatives, you save yourself money while decreasing greenhouse
+                                    gas emissions."/>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-2 drought">
+                                <div class="col-xs-6 col-md-12 impacts">
+                                    <h4>Evaluate Yourself</h4>
+                                </div>
+                                <div class="col-xs-6 col-md-12">
+                                    <img src="assets/action-icons/check-icon.png"  class="money tooltip" title="Check your household carbon footprint with the EPAÕs Household Emissions Calculator. This way, you can determine to what extent you need to change your lifestyle to lessen a negative impact on the environment."/> 
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-md-2 drought">
+                                <div class="col-xs-6 col-md-12 impacts">
+                                    <h4>Stay Informed</h4>
+                                </div>
+                                <div class="col-xs-6 col-md-12">
+                                    <img src="assets/action-icons/information-icon.png"  class="money tooltip" title="Keep up with climate change and how you can make a difference at epa.gov/climatechange."/> 
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="hidden-xs col-md-1"></div>
+                    </div>
+                      
+                </div>                
+            </li>
             
 
             <li><iframe id="quiz" name="quiz" height="450px" width="500px"></iframe></li>
@@ -249,10 +372,89 @@ This is called the greenhouse effect. </h3>
 
 	</script>
     
+<!--Doughnut-->
 
+    <script>
+
+		var doughnutData = [
+				{
+					value: 25.9,
+					color:"#12538b",
+					highlight: "#be2029",
+					label: "Energy Supply"
+				},
+				{
+					value: 19.4,
+					color:"#12538b",
+					highlight: "#be2029",
+					label: "Industry/Manufacturing"
+				},
+				{
+					value: 17.4,
+					color:"#12538b",
+					highlight: "#be2029",
+					label: "Forestry/Deforestation"
+				},
+				{
+					value: 13.5,
+					color:"#12538b",
+					highlight: "#be2029",
+					label: "Agriculture"
+				},
+				{
+					value: 13.1,
+					color:"#12538b",
+					highlight: "#be2029",
+					label: "Transportation"
+				},
+                                {
+					value: 7.9,
+					color:"#12538b",
+					highlight: "#be2029",
+					label: "Residential & Commercial Buildings"
+				},
+                                {
+					value: 2.8,
+					color:"#12538b",
+					highlight: "#be2029",
+					label: "Waste/Sewage"
+				}                               
+                                
+
+			];
+
+			window.onload = function(){
+				var ctx = document.getElementById("chart-area").getContext("2d");
+				window.myDoughnut = new Chart(ctx).Doughnut(doughnutData, {responsive : true});
+			};
+
+
+
+	</script>
    
+<!--World Map-->
 
 
+            <script src="js/jquery.vmap.js"></script>
+            <script src="js/jquery.vmap.world.js"></script>
+            <script src="js/jquery.vmap.sampledata.js"></script>
+             
+	<script type="text/javascript">
+                    jQuery(document).ready(function() {
+                    jQuery('#vmap').vectorMap({
+		    map: 'world_en',
+		    backgroundColor: 'none',
+		    color: '#ffffff',
+		    hoverOpacity: 0.7,
+		    selectedColor: '#666666',
+		    enableZoom: false,
+		    showTooltip: true,
+		    values: sample_data,
+		    scaleColors: ['#C8EEFF', '#006491'],
+		    normalizeFunction: 'polynomial'
+		});
+	});
+        </script>
     
     
   </body>

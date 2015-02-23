@@ -122,7 +122,7 @@
 			tooltipEvents: ["mousemove", "touchstart", "touchmove", "mouseout"],
 
 			// String - Tooltip background colour
-			tooltipFillColor: "rgba(0,0,0,0.8)",
+			tooltipFillColor: "#222",
 
 			// String - Tooltip label font declaration for the scale label
 			tooltipFontFamily: "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
@@ -134,7 +134,7 @@
 			tooltipFontStyle: "normal",
 
 			// String - Tooltip label font colour
-			tooltipFontColor: "#fff",
+			tooltipFontColor: "#f1e3c8",
 
 			// String - Tooltip title font declaration for the scale label
 			tooltipTitleFontFamily: "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
@@ -2335,10 +2335,10 @@
 		segmentShowStroke : true,
 
 		//String - The colour of each segment stroke
-		segmentStrokeColor : "#fff",
+		segmentStrokeColor : "#f1e3c8",
 
 		//Number - The width of each segment stroke
-		segmentStrokeWidth : 2,
+		segmentStrokeWidth : 4,
 
 		//The percentage of the chart that we cut out of the middle.
 		percentageInnerCutout : 50,

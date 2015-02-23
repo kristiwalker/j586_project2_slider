@@ -18,7 +18,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 			arrowColor: '',
 			autoClose: true,
 			content: null,
-			contentAsHTML: false,
+			contentAsHTML: true,
 			contentCloning: true,
 			debug: true,
 			delay: 200,

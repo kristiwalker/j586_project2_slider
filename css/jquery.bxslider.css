@@ -63,6 +63,9 @@ body{
 	background-color:#be2029;
 }
 
+.head-style-blue{
+	background-color:#12538b;
+}
 
 
 .impacts{
@@ -115,6 +118,53 @@ body{
 	max-height:400px;
 }
 
+.line-interactive{
+	max-height:400px;
+}
+
+.chart-divider{
+	display:block;
+	position:absolute;
+	right:370px;
+	border-left: solid;
+	border-color:#12538b;
+	border-width:1px;
+	height:270px;
+}
+
+.vmap-position{
+	position:absolute;
+	right:45px;
+	top:30px;
+}
+
+.doughnut{
+	position:absolute;
+	left:0px;
+	top:60px;
+}
+
+.co2{
+	min-height:300px;
+}
+
+.co2-height{
+	display:block;
+	position:relative;
+	height:275px;
+}
+
+.country-list{
+	display:inline-block;
+	position:absolute;
+	top:130px;
+	left:20px;
+}
+
+.plus{
+	max-height:30px;
+}
+
 .bx-wrapper {
 	position: relative;
 	margin: 0 auto 60px;
@@ -138,7 +188,7 @@ body{
 	-moz-box-shadow: 0 0 5px #ccc;
 	-webkit-box-shadow: 0 0 5px #ccc;
 	box-shadow: 0 0 5px #ccc;
-	border:  5px solid #fff;
+	border:  5px solid #f1e3c8;
 	left: -5px;
 	background: #f1e3c8;
 	max-width:800px;
