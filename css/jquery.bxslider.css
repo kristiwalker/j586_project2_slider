@@ -14,44 +14,58 @@
 /** RESET AND LAYOUT
 ===================================*/
 
-h1,h2,h3,h4,h5,h6{
-	font-family: "roboto", sans-serif;
+h1,h2,h3,h4,h5,h6,p,.head-style-1{
+	font-family: "News Cycle", sans-serif;
 	
 }
 
 
 h1{
+	font-family:"Oswald";
 	margin-top:30px;
-	font-weight:700;
+	font-weight:400;
 	color:#f1e3c8;
+	font-size:50px;
 }
 
 h3{
 	color:#f1e3c8;
 	margin-bottom:30px;
-	font-weight:400;
-	font-size:18px;
-	line-height:22px;
+	font-weight:200;
+	font-size:20px;
+	line-height:24px;
+	font-style: normal;
+	font-family: "news cycle"
 
 
 }
 
 h4{
 	font-weight:500;
-	line-height:25px;
-	font-size:16px;
+	line-height:23px;
+	font-size:15px;
 	
 }
 
 h5{
 	text-align:center;
-	color:#12538b;
-	line-height:18px;
+	font-weight:500;
+	line-height:23px;
+	font-size:15px;
 }
 
 h6{
 	color:#12538b;
 	text-align:center;
+	
+}
+
+
+.circle{
+	border:solid;
+	background-color:#be2029;
+	border-color:transparent;
+	border-radius:1000px;
 	
 }
 
@@ -62,6 +76,45 @@ body{
 .head-style{
 	background-color:#be2029;
 }
+
+.style-1-margin{
+	height:400px;
+	margin-left:20px;
+}
+
+.style-2-margin{
+	margin-left:20px;
+
+}
+
+.slide-1-background{
+	background-image:url("planet-thermo.png");
+}
+
+.head-style-1{
+	position:absolute;
+	top:100px;
+	font-weight:400;
+	line-height:70px;
+	color:#be2029;
+	font-size:70px;
+	text-align:left;
+	font-family:"oswald";
+
+}
+
+.head-style-2{
+	position:absolute;
+	top:30px;
+	font-weight:400;
+	line-height:80px;
+	color:#12538b;
+	font-size:25px;
+	text-align:left;
+	font-family:"Oswald";
+}
+
+
 
 .head-style-blue{
 	background-color:#12538b;
@@ -293,10 +346,7 @@ ul li:nth-child(7):before{
 ===================================*/
 
 .bx-wrapper .bx-viewport {
-	-moz-box-shadow: 0 0 5px #ccc;
-	-webkit-box-shadow: 0 0 5px #ccc;
-	box-shadow: 0 0 5px #ccc;
-	border:  5px solid #f1e3c8;
+
 	left: -5px;
 	background: #f1e3c8;
 	max-width:800px;
