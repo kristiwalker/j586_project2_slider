@@ -2540,13 +2540,13 @@
 		pointDot : true,
 
 		//Number - Radius of each point dot in pixels
-		pointDotRadius : 5,
+		pointDotRadius : 3,
 
 		//Number - Pixel width of point dot stroke
 		pointDotStrokeWidth : 1,
 
 		//Number - amount extra to add to the radius to cater for hit detection outside the drawn point
-		pointHitDetectionRadius : 5,
+		pointHitDetectionRadius : 1,
 
 		//Boolean - Whether to show a stroke for datasets
 		datasetStroke : true,
