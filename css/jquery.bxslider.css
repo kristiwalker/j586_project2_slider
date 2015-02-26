@@ -60,6 +60,7 @@ h1,h2,h3,h4,h5,h6,p,.head-style-1{
 		color:#f1e3c8;
 		font-size:45px;
 		line-height:60px;
+		
 	}
 }
 
@@ -70,6 +71,7 @@ h1,h2,h3,h4,h5,h6,p,.head-style-1{
 		font-size:17px;
 		line-height:20px;
 		font-style: normal;
+		margin-top:-2px;
 	}
 
 }
@@ -574,7 +576,20 @@ ul li:nth-child(7):before{
 .subhead{
 	font-size:18px;
 	color:#444;
+
 }
+
+.source-head-style{
+	font-size:12px;
+
+}
+
+.source-style{
+	font-size:10px;
+	color:#444;
+	margin-top:-10px;
+}
+
 .bx-wrapper {
 	position: relative;
 	margin: 0 auto 60px;
