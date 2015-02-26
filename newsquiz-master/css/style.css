@@ -70,10 +70,9 @@ body{
 .how_you_did {
 	text-align: center;
 	padding: 1em;
-	background-color: #12538b;
 	font-weight: bold;
 	font-size: 1.25em;
-	color:#f1e3c8;
+	color:#12538b;
 }
 
 /*multimedia styling*/
